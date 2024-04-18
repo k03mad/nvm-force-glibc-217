@@ -1970,7 +1970,7 @@ nvm_get_arch() {
   fi
 
   if [ -n "${NVM_USE_GLIBC_217}" ]; then
-    NVM_ARCH=-x64-glibc-217
+    NVM_ARCH=x64-glibc-217
   fi
 
   nvm_echo "${NVM_ARCH}"
